@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.tourist-spot{
+    display: inline-block;
+    margin: 5px;
+}
+.tourist-spot h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+
+.tourist-spot p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: left;
+    width: 500px;
+    height: 355px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tourist-spot img {
+    float: right;
+    width: 550px;
+    transition: transform 0.2s;
+}
+
+.tourist-spot-2{
+    display: inline-block;
+    margin: 5px;
+}
+.tourist-spot-2 h1{
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    text-decoration:  underline;
+    font-size: 45px;
+}
+
+.tourist-spot-2 p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: left;
+    width: 500px;
+    height: 355px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tourist-spot-2 img {
+    float: left;
+    width: 550px;
+    height: 365px;
+    transition: transform 0.2s;
+}
+
+.tourist-spot-3{
+    display: inline-block;
+    margin: 5px;
+}
+.tourist-spot-3 h1{
+    text-align: center;
+    text-decoration:  underline;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+
+.tourist-spot-3 p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: left;
+    width: 500px;
+    height: 355px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tourist-spot-3 img {
+    float: right;
+    width: 550px;
+    height: 365px;
+    transition: transform 0.2s;
+}
+
+.tourist-spot-4{
+    display: inline-block;
+    margin: 5px;
+}
+.tourist-spot-4 h1{
+    text-align: center;
+    text-decoration:  underline;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+
+.tourist-spot-4 p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: left;
+    width: 500px;
+    height: 355px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;    
+}
+
+.tourist-spot-4 img {
+    float: left;
+    width: 550px;
+    height: 365px;
+    transition: transform 0.2s;
+}
+
+.tourist-spot-5{
+    display: inline-block;
+    margin: 5px;
+}
+.tourist-spot-5 h1{
+    text-align: center;
+    text-decoration:  underline;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+
+.tourist-spot-5 p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: left;
+    width: 500px;
+    height: 355px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tourist-spot-5 img {
+    float: right;
+    width: 550px;
+    height: 365px;
+    transition: transform 0.2s;
+}
+
+.tourist-spot img:hover,
+.tourist-spot-2 img:hover,
+.tourist-spot-3 img:hover,
+.tourist-spot-4 img:hover,
+.tourist-spot-5 img:hover{
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #979797;
+}
